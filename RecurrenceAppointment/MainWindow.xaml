@@ -1,0 +1,24 @@
+﻿<Window x:Class="RecurrenceAppointment.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RecurrenceAppointment"
+         xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="925">
+    <Grid>
+        <syncfusion:SfSchedule x:Name="schedule" ScheduleType="Month">
+            <syncfusion:SfSchedule.AppointmentMapping>
+                <syncfusion:ScheduleAppointmentMapping
+			SubjectMapping="EventName"
+			AppointmentBackgroundMapping="Color"
+			StartTimeMapping="From"
+			EndTimeMapping="To"
+                    IsRecursiveMapping="IsRecursive"
+			RecurrenceRuleMapping="RecurrenceRule">
+                </syncfusion:ScheduleAppointmentMapping>
+            </syncfusion:SfSchedule.AppointmentMapping>
+        </syncfusion:SfSchedule>
+    </Grid>
+</Window>
