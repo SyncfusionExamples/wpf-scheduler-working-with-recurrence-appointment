@@ -35,7 +35,7 @@ namespace RecurrenceAppointment
             // Setting start time for an event
             meeting.EventName = "Client Meeting";
             // Setting color for an event
-            meeting.Color = Brushes.Green;
+            meeting.Color = new SolidColorBrush(Color.FromArgb(0xFf, 0xD8, 0x00, 0x73));
             meeting.IsRecursive = true;
 
             // Creating recurrence rule
