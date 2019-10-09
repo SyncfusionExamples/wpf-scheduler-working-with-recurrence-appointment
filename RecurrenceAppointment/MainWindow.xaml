@@ -15,7 +15,7 @@
 			AppointmentBackgroundMapping="Color"
 			StartTimeMapping="From"
 			EndTimeMapping="To"
-                        IsRecursiveMapping="IsRecursive"
+                       IsRecursiveMapping="IsRecursive"
 			RecurrenceRuleMapping="RecurrenceRule">
                 </syncfusion:ScheduleAppointmentMapping>
             </syncfusion:SfSchedule.AppointmentMapping>
