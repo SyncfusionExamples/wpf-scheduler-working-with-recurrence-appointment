@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -37,23 +37,23 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Syncfusion.Licensing, Version=17.3460.0.14, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.Licensing.17.3.0.14\lib\net46\Syncfusion.Licensing.dll</HintPath>
+      <HintPath>packages\Syncfusion.Licensing.17.3.0.14\lib\net46\Syncfusion.Licensing.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Syncfusion.SfRadialMenu.WPF, Version=17.3460.0.14, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.SfRadialMenu.WPF.17.3.0.14\lib\net46\Syncfusion.SfRadialMenu.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.SfRadialMenu.WPF.17.3.0.14\lib\net46\Syncfusion.SfRadialMenu.WPF.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Syncfusion.SfSchedule.WPF, Version=17.3460.0.14, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.SfSchedule.WPF.17.3.0.14\lib\net46\Syncfusion.SfSchedule.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.SfSchedule.WPF.17.3.0.14\lib\net46\Syncfusion.SfSchedule.WPF.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Syncfusion.SfShared.WPF, Version=17.3460.0.14, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.SfShared.WPF.17.3.0.14\lib\net46\Syncfusion.SfShared.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.SfShared.WPF.17.3.0.14\lib\net46\Syncfusion.SfShared.WPF.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Syncfusion.Shared.WPF, Version=17.3460.0.14, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.Shared.WPF.17.3.0.14\lib\net46\Syncfusion.Shared.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.Shared.WPF.17.3.0.14\lib\net46\Syncfusion.Shared.WPF.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
